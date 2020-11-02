@@ -4,8 +4,8 @@
 ## Scirpts
 
 We provide three Python scripts with the following functions:
-
-+ [transform_model.py](./transform_model.py): decomposing lrs_fixed.pth into lrs_fixed_real.pth and range.npy.
+The fixed-point model is decomposed into integer models and corresponding scaling factors.
++ [transform_model.py](./transform_model.py): decomposing the fixed-point model (lrs_fixed.pth) into integer model (lrs_fixed_real.pth) and corresponding scaling factors (range.npy).
 + [test_single.py](./test_single.py): testing model on one image.
 + [test_kodak.py](./test_kodak.py): testing model on kodak set.
 
@@ -26,10 +26,11 @@ The two Python scripts we provide are used as follows:
 
 + [lrs_fixed_real.pth](./lrs_fixed_real.pth): fixed-point model whose weights and biases are integers
 
-Step:
-+ python transform_model.py
-+ python test_single.py or python test_kodak.py
 
 ## Result
+
+![Result](./result.png)
+
+Value of lrs_fixed_real.pth to be shown
 
 **TODO**
