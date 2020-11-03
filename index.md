@@ -31,6 +31,6 @@ The two Python scripts we provide are used as follows:
 
 [Result](./scripts/result.png)
 
-Value of lrs_fixed_real.pth to be shown
+Value of lrs_fixed_real.pth to be shown below
 
 **TODO**
