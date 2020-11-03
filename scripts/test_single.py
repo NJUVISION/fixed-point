@@ -138,7 +138,7 @@ def Single_Test(model_path, image_path):
 
 
 def main():
-    model_path = "../models/lrs_fixed_real.pth"
+    model_path = "../models/lrs_integer.pth"
     image_path = "../Kodak_Cli/kodim08.png"
 
     Single_Test(model_path, image_path)

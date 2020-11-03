@@ -53,5 +53,5 @@ def Kodak_Test(model_path, be_Fixed=False):
 
 
 np.set_printoptions(suppress=True)
-Kodak_Test("../models/lrs_fixed_real.pth", be_Fixed=True)
+Kodak_Test("../models/lrs_integer.pth", be_Fixed=True)
 Kodak_Test("../models/lrs_float.pth", be_Fixed=False)
