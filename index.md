@@ -31,6 +31,8 @@ The two Python scripts we provide are used as follows:
 
 ![avatar](./scripts/result.png)
 
-Value of lrs_integer.pth to be shown below
+Value of lrs_integer.pth to be shown below:
+
+![avatar](./scripts/kernel.png)
 
 **TODO**

@@ -79,7 +79,11 @@ def LRS_Fixed_Inference(img, sr_model, be_Save=False):
     out1, sr_model.conv1, range_1 = QConv(img, sr_model.conv1, stride=1, be_ReLU=True)
     #print(sr_model.conv1.weight)
 
+    print(sr_model.SU_Res1.conv1.weight[33, 33].cpu().numpy())
     out2_1, sr_model.SU_Res1.conv1, range_2 = QConv(out1, sr_model.SU_Res1.conv1, be_ReLU=True)
+    print(sr_model.SU_Res1.conv1.weight[33, 33].cpu().numpy())
+    print(range_2)
+
     out2_2, sr_model.SU_Res1.conv2, range_3 = QConv(out2_1, sr_model.SU_Res1.conv2)
     out2 = Handle_Activation(out1 + out2_2)
 
