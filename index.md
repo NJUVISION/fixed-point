@@ -4,10 +4,10 @@
 ## Scirpts
 
 We provide three Python scripts with the following functions:
-The fixed-point model is decomposed into integer models and corresponding scaling factors.
-+ [transform_model.py](./scripts/transform_model.py): decomposing the fixed-point model (lrs_fixed.pth) into integer model (lrs_fixed_real.pth) and corresponding scaling factors (range.npy).
+
++ [transform_model.py](./scripts/transform_model.py): decomposing the **fixed-point** model (lrs_fixed.pth) into **integer** model (lrs_fixed_real.pth) and corresponding **range** factors (range.npy).
 + [test_single.py](./scripts/test_single.py): testing model on one image.
-+ [test_kodak.py](./scripts/test_kodak.py): testing model on kodak set.
++ [test_kodak.py](./scripts/test_kodak.py): testing model on Kodak dataset.
 
 ## Models
 

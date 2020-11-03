@@ -77,6 +77,7 @@ def QConv(x, conv, stride=1, a_l=0, a_r=8, b_W=8, be_Last=False, be_ReLU=False):
 
 def LRS_Fixed_Inference(img, sr_model, be_Save=False):
     out1, sr_model.conv1, range_1 = QConv(img, sr_model.conv1, stride=1, be_ReLU=True)
+    #print(sr_model.conv1.weight)
 
     out2_1, sr_model.SU_Res1.conv1, range_2 = QConv(out1, sr_model.SU_Res1.conv1, be_ReLU=True)
     out2_2, sr_model.SU_Res1.conv2, range_3 = QConv(out2_1, sr_model.SU_Res1.conv2)
@@ -100,7 +101,7 @@ def LRS_Fixed_Inference(img, sr_model, be_Save=False):
     np.save("../models/range.npy", range_set)
 
     if be_Save:
-        torch.save(sr_model.state_dict(), "../models/lrs_fixed_real.pth")
+        torch.save(sr_model.state_dict(), "../models/lrs_integer.pth")
 
     return out8
 
