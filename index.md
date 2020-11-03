@@ -29,7 +29,7 @@ The two Python scripts we provide are used as follows:
 
 ## Result
 
-[Result](./scripts/result.png)
+![avatar](./scripts/result.png)
 
 Value of lrs_fixed_real.pth to be shown below
 
