@@ -14,6 +14,15 @@ The calculation process is shown in the figure below:
 
 ![avatar](./scripts/framework.png)
 
+
+## Rate-Distortion Performance
+
+<img src="https://njuvision.github.io/fixed-point/images/ex_float.png" width="600px" >
+<img src="https://njuvision.github.io/fixed-point/images/ex_weight8.png" width="600px" >
+<img src="https://njuvision.github.io/fixed-point/images/ex_weight7.png" width="600px" >
+<img src="https://njuvision.github.io/fixed-point/images/ex_full.png" width="600px" >
+
+
 ## Scirpts
 
 We provide three Python scripts with the following functions:
@@ -38,15 +47,6 @@ The two Python scripts we provide are used as follows:
 + python test_single.py or python test_kodak.py
 
 + [lrs_integer.pth](./models/lrs_integer.pth): fixed-point model whose weights and biases are integers.
-
-
-## Result
-
-<img src="https://njuvision.github.io/fixed-point/images/ex_float.png" width="600px" >
-<img src="https://njuvision.github.io/fixed-point/images/ex_weight8.png" width="600px" >
-<img src="https://njuvision.github.io/fixed-point/images/ex_weight7.png" width="600px" >
-<img src="https://njuvision.github.io/fixed-point/images/ex_full.png" width="600px" >
-
 
 Value of lrs_integer.pth to be shown below:
 
