@@ -42,7 +42,8 @@ The two Python scripts we provide are used as follows:
 
 ## Result
 
-![avatar](./scripts/result.png)
+<img src="https://njuvision.github.io/fixed-point/images/Ex_Float.png" width="300px" ><img src="https://njuvision.github.io/fixed-point/images/Ex_Weight8.png" width="300px" /><img src="https://njuvision.github.io/fixed-point/images/Ex_Weight7.png" width="300px" ><img src="https://njuvision.github.io/fixed-point/images/Ex_Full.png" width="300px" >
+
 
 Value of lrs_integer.pth to be shown below:
 
