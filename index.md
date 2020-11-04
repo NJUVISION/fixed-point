@@ -3,6 +3,8 @@
 ## Introduction
 We propose a fixed-point convolution strategy based on the distribution characteristics of activation values. Firstly, the floating-point model is pre-trained until it converges. Then, the activation values are limited according to its own distribution characteristics in each convolution layer. Finally, the activation values are converted into fixed-point forms, and the weights are quantized into low bit-width integers. Since floating-point operations are not involved in the forward inference process, but only fixed-point operations with low bit-width are involved, the instability of floating-point operations on different hardware architectures can be avoided, and calculations can also be accelerated.
 
+![avatar](./scripts/framework.png)
+
 ## Architecture
 
 ## Scirpts
