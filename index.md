@@ -1,6 +1,10 @@
 
 # Fixed-point Convolution Framework
 
+## Introduction
+
+We propose a fixed-point convolution strategy based on the distribution characteristics of activation values. The framework first pretrains the floating-point model until convergence, and then limits activation values according to the distribution characteristics of the activation values ​​of each convolutional layer.
+
 ## Scirpts
 
 We provide three Python scripts with the following functions:
