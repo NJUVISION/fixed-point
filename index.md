@@ -42,7 +42,10 @@ The two Python scripts we provide are used as follows:
 
 ## Result
 
-<img src="https://njuvision.github.io/fixed-point/images/Ex_Float.png" width="300px" ><img src="https://njuvision.github.io/fixed-point/images/Ex_Weight8.png" width="300px" /><img src="https://njuvision.github.io/fixed-point/images/Ex_Weight7.png" width="300px" ><img src="https://njuvision.github.io/fixed-point/images/Ex_Full.png" width="300px" >
+<img src="https://njuvision.github.io/fixed-point/images/ex_float.png" width="600px" >
+<img src="https://njuvision.github.io/fixed-point/images/ex_weight8.png" width="600px" >
+<img src="https://njuvision.github.io/fixed-point/images/ex_weight7.png" width="600px" >
+<img src="https://njuvision.github.io/fixed-point/images/ex_full.png" width="600px" >
 
 
 Value of lrs_integer.pth to be shown below:
