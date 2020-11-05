@@ -17,8 +17,8 @@ The calculation process is shown in the figure below:
 
 ## Rate-Distortion Performance
 
-<img src="https://njuvision.github.io/fixed-point/images/ex_float.png" width="400px" /><img src="https://njuvision.github.io/fixed-point/images/ex_float_psnr.png" width="400px" >
-<img src="https://njuvision.github.io/fixed-point/images/ex_weight8.png" width="400px" /><img src="https://njuvision.github.io/fixed-point/images/ex_weight8_psnr.png" width="400px" >
-<img src="https://njuvision.github.io/fixed-point/images/ex_weight7.png" width="400px" /><img src="https://njuvision.github.io/fixed-point/images/ex_weight7_psnr.png" width="400px" >
-<img src="https://njuvision.github.io/fixed-point/images/ex_full.png" width="400px" >
+<img src="https://njuvision.github.io/fixed-point/images/ex_float.png" width="200px" /><img src="https://njuvision.github.io/fixed-point/images/ex_float_psnr.png" width="200px" >
+<img src="https://njuvision.github.io/fixed-point/images/ex_weight8.png" width="200px" /><img src="https://njuvision.github.io/fixed-point/images/ex_weight8_psnr.png" width="200px" >
+<img src="https://njuvision.github.io/fixed-point/images/ex_weight7.png" width="200px" /><img src="https://njuvision.github.io/fixed-point/images/ex_weight7_psnr.png" width="200px" >
+<img src="https://njuvision.github.io/fixed-point/images/ex_full.png" width="200px" >
 
