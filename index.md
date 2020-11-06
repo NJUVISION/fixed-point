@@ -13,11 +13,11 @@ After the floating-point convolution kernel is decomposed into a same-size integ
 
 The following figure shows the process of decomposing the floating-point convolution kernel into integer convolution kernels and range parameters: 
 
-<img src="https://njuvision.github.io/fixed-point/images/kernel.png" width="600px" >
+<img src="https://njuvision.github.io/fixed-point/images/kernel.png" width="500px" >
 
 The calculation process is shown in the figure below:
 
-![avatar](./images/framework.png)
+<img src="https://njuvision.github.io/fixed-point/images/framework.png" width="500px" >
 
 
 ## Rate-Distortion Performance
