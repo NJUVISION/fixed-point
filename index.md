@@ -10,15 +10,20 @@ Since floating-point operations are not involved in the forward inference proces
 ## Architecture
 
 After the floating-point convolution kernel is decomposed into a same-size integer convolution kernel and a fixed-point range parameter, the original floating-point convolution layer is divided into two layers: the first layer is a similar fixed-point convolution layer, and the second layer is a linear scaling layer. 
+
+The following figure shows the process of decomposing the floating-point convolution kernel into integer convolution kernels and range parameters: 
+
+<img src="https://njuvision.github.io/fixed-point/images/kernel.png" width="600px" >
+
 The calculation process is shown in the figure below:
 
-![avatar](./scripts/framework.png)
+![avatar](./images/framework.png)
 
 
 ## Rate-Distortion Performance
 
-<img src="https://njuvision.github.io/fixed-point/images/ex_float.png" width="250px" /><img src="https://njuvision.github.io/fixed-point/images/ex_float_psnr.png" width="250px" >
-<img src="https://njuvision.github.io/fixed-point/images/ex_weight8.png" width="250px" /><img src="https://njuvision.github.io/fixed-point/images/ex_weight8_psnr.png" width="250px" >
-<img src="https://njuvision.github.io/fixed-point/images/ex_weight7.png" width="250px" /><img src="https://njuvision.github.io/fixed-point/images/ex_weight7_psnr.png" width="250px" >
-<img src="https://njuvision.github.io/fixed-point/images/ex_full.png" width="250px" >
+<img src="https://njuvision.github.io/fixed-point/images/ex_float.png" width="400px" /><img src="https://njuvision.github.io/fixed-point/images/ex_float_psnr.png" width="400px" >
+<img src="https://njuvision.github.io/fixed-point/images/ex_weight8.png" width="400px" /><img src="https://njuvision.github.io/fixed-point/images/ex_weight8_psnr.png" width="400px" >
+<img src="https://njuvision.github.io/fixed-point/images/ex_weight7.png" width="400px" /><img src="https://njuvision.github.io/fixed-point/images/ex_weight7_psnr.png" width="400px" >
+<img src="https://njuvision.github.io/fixed-point/images/ex_full.png" width="400px" >
 
