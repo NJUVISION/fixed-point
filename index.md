@@ -7,18 +7,24 @@ Upon this re-trained floating-point model with limited activation range, we have
 The “range” used here can be represented by a scalar that is fixed for pre-processing, learned for quantization, and  adapted for normalization, in neural model for indicating the dynamic range of the processing data for compact data presentation. 
 Since floating-point operations are not involved in the forward inference process, but only fixed-point operations with low bit-width are involved, the instability of floating-point operations on different hardware architectures can be avoided, and calculations can also be accelerated.
 
-## Architecture
 
+## Architecture
 After the floating-point convolution kernel is decomposed into a same-size integer convolution kernel and a fixed-point range parameter, the original floating-point convolution layer is divided into two layers: the first layer is a similar fixed-point convolution layer, and the second layer is a linear scaling layer. 
 
 The following figure shows the process of decomposing the floating-point convolution kernel into integer convolution kernels and range parameters: 
 
 <img src="https://njuvision.github.io/fixed-point/images/kernel.png" width="500px" >
 
+
 ## Rate-Distortion Performance (MS-SSIM & PSNR)
+<img src="https://njuvision.github.io/fixed-point/images/ex_float.png" width="300px" /><img src="https://njuvision.github.io/fixed-point/images/ex_float_psnr.png" width="300px" >
+<img src="https://njuvision.github.io/fixed-point/images/ex_weight8.png" width="300px" /><img src="https://njuvision.github.io/fixed-point/images/ex_weight8_psnr.png" width="300px" >
+<img src="https://njuvision.github.io/fixed-point/images/ex_weight7.png" width="300px" /><img src="https://njuvision.github.io/fixed-point/images/ex_weight7_psnr.png" width="300px" >
+<img src="https://njuvision.github.io/fixed-point/images/ex_full.png" width="300px" >
 
-<img src="https://njuvision.github.io/fixed-point/images/ex_float.png" width="400px" /><img src="https://njuvision.github.io/fixed-point/images/ex_float_psnr.png" width="400px" >
-<img src="https://njuvision.github.io/fixed-point/images/ex_weight8.png" width="400px" /><img src="https://njuvision.github.io/fixed-point/images/ex_weight8_psnr.png" width="400px" >
-<img src="https://njuvision.github.io/fixed-point/images/ex_weight7.png" width="400px" /><img src="https://njuvision.github.io/fixed-point/images/ex_weight7_psnr.png" width="400px" >
-<img src="https://njuvision.github.io/fixed-point/images/ex_full.png" width="400px" >
 
+## Code & Model
+
++ [Fixed-Point Model](./models/lrs_fixed.pth): fixed-point model that will be decomposed into range.npy and lrs_integer.pth.
+
++ [Code]
