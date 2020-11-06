@@ -17,7 +17,7 @@ The following figure shows the process of decomposing the floating-point convolu
 
 The calculation process is shown in the figure below:
 
-<img src="https://njuvision.github.io/fixed-point/images/framework.png" width="500px" >
+<img src="https://njuvision.github.io/fixed-point/images/framework.png" width="300px" >
 
 
 ## Rate-Distortion Performance
