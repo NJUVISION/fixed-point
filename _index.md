@@ -24,8 +24,9 @@ The two Python scripts we provide are used as follows:
 
 + [lrs_integer.pth](./models/lrs_integer.pth): fixed-point model whose weights and biases are integers.
 
-Value of lrs_integer.pth to be shown below:
-
-![avatar](./scripts/kernel.png)
 
 **TODO**
+
+The calculation process is shown in the figure below:
+
+<img src="https://njuvision.github.io/fixed-point/images/framework.png" width="400px" >

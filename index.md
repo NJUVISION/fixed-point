@@ -15,12 +15,7 @@ The following figure shows the process of decomposing the floating-point convolu
 
 <img src="https://njuvision.github.io/fixed-point/images/kernel.png" width="500px" >
 
-The calculation process is shown in the figure below:
-
-<img src="https://njuvision.github.io/fixed-point/images/framework.png" width="300px" >
-
-
-## Rate-Distortion Performance
+## Rate-Distortion Performance (MS-SSIM & PSNR)
 
 <img src="https://njuvision.github.io/fixed-point/images/ex_float.png" width="400px" /><img src="https://njuvision.github.io/fixed-point/images/ex_float_psnr.png" width="400px" >
 <img src="https://njuvision.github.io/fixed-point/images/ex_weight8.png" width="400px" /><img src="https://njuvision.github.io/fixed-point/images/ex_weight8_psnr.png" width="400px" >
