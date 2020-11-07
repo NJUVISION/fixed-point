@@ -32,6 +32,7 @@ The following figure shows the process of decomposing the floating-point convolu
 
 ## Code & Model
 
-+ [Fixed-Point Model](./models/): fixed-point model that will be decomposed into range.npy and lrs_integer.pth.
-
 + [Code](./scripts/)
+
++ [Model](./models/)
+
