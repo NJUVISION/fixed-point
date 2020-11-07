@@ -17,9 +17,16 @@ The following figure shows the process of decomposing the floating-point convolu
 
 
 ## Rate-Distortion Performance (MS-SSIM & PSNR)
+### Pre-processing
 <img src="https://njuvision.github.io/fixed-point/images/ex_float.png" width="300px" /><img src="https://njuvision.github.io/fixed-point/images/ex_float_psnr.png" width="300px" >
+
+### Influence of activations with different bit-width
 <img src="https://njuvision.github.io/fixed-point/images/ex_weight8.png" width="300px" /><img src="https://njuvision.github.io/fixed-point/images/ex_weight8_psnr.png" width="300px" >
+
+### Influence of weights with different bit-width
 <img src="https://njuvision.github.io/fixed-point/images/ex_weight7.png" width="300px" /><img src="https://njuvision.github.io/fixed-point/images/ex_weight7_psnr.png" width="300px" >
+
+### Fully Fixed-point Image Codec
 <img src="https://njuvision.github.io/fixed-point/images/ex_full.png" width="300px" >
 
 
