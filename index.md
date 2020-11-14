@@ -32,7 +32,7 @@ The following figure shows the process of decomposing the floating-point convolu
 
 ## Code & Model
 
-+ [Code](./scripts/)
++ [Code](./scripts.zip)
 
-+ [Model](./models/)
++ [Model](./models.zip)
 
